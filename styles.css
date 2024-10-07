@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 100%);
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+}
+
+.controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
